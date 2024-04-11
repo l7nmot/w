@@ -1,22 +1,22 @@
 const axios = require('axios');
 const keep_alive = require('./keep_alive.js')
-const reminderMessage = 'level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up level up <@&1225054167027028089> <@&1225054128179511357> <@&1225054205828403371> <@&1225054239877890148>';
-const intervalMilliseconds = 5000;
+const reminderMessage = '# !ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk ksmk @everyone (اعدائي)';
+ const intervalMilliseconds = 10000;
 
 const tokens = [
     process.env.token
 ];
 const channelIds = [
-    '1225052504278958143',
-    '1225052536839471246',
-    '1225052596734136430',
-    '1225052637179674655',
-    '1225052674823557181',
-    '1225052707195457547',
-    '1225052737092456590',
-    '1225052770130989107',
-    '1225052801411973150',
-    '1225052831803768863'
+    '1227959257119592489',
+    '1227959377240002570',
+    '1227959457187631236',
+    '1227959519334895616',
+    '1227959756321325086',
+    '1227960176024354836',
+    '1227960230101385300',
+    '1227960320727977995',
+    '1227960419747102740',
+    '1227960481462091826'
 ];
 
 async function sendMessages() {
